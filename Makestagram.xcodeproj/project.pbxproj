@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CB25C0220F69B9700374024 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB25C0120F69B9700374024 /* LoginViewController.swift */; };
 		1CD7D22420F697C5002028FB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7D22320F697C5002028FB /* Login.storyboard */; };
 		1CD8B75420F56569006AEE80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8B75320F56569006AEE80 /* AppDelegate.swift */; };
 		1CD8B75620F56569006AEE80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8B75520F56569006AEE80 /* ViewController.swift */; };
 		1CD8B75920F5656A006AEE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8B75720F56569006AEE80 /* Main.storyboard */; };
 		1CD8B75B20F56589006AEE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8B75A20F56589006AEE80 /* Assets.xcassets */; };
 		1CD8B75E20F5658A006AEE80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD8B75C20F5658A006AEE80 /* LaunchScreen.storyboard */; };
+		1CF86E0520F7F88F00EBD0F8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF86E0420F7F88F00EBD0F8 /* User.swift */; };
 		4ACA4F7F3204E1C5677C9F04 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D5F0325101DF02DCE969EC /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CB25C0120F69B9700374024 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1CD7D22320F697C5002028FB /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		1CD8B75020F56569006AEE80 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD8B75320F56569006AEE80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		1CD8B75A20F56589006AEE80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD8B75D20F5658A006AEE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CD8B75F20F5658A006AEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF86E0420F7F88F00EBD0F8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		70D5F0325101DF02DCE969EC /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE7D6CBD4A3A20A596E1E92 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		E358A3ECD52F99D1717F1DC5 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				1CD8B75520F56569006AEE80 /* ViewController.swift */,
+				1CB25C0120F69B9700374024 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -67,6 +72,7 @@
 		1CD7D21D20F695EA002028FB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1CF86E0420F7F88F00EBD0F8 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF86E0520F7F88F00EBD0F8 /* User.swift in Sources */,
+				1CB25C0220F69B9700374024 /* LoginViewController.swift in Sources */,
 				1CD8B75620F56569006AEE80 /* ViewController.swift in Sources */,
 				1CD8B75420F56569006AEE80 /* AppDelegate.swift in Sources */,
 			);
